@@ -4,7 +4,7 @@ const Header = () => {
   
   return (
     <div>
-      <header className="flex items-center sm:justify-around  bg-black text-white">
+      <header className="flex items-center sm:justify-around justify-between  bg-black text-white">
         <img src={logo} alt="logo" className="sm:w-[70px] w-[60px] " />
 
         <ul className="sm:flex hidden gap-6 items-center text-gray-400">
@@ -23,9 +23,9 @@ const Header = () => {
           </li>
           
         </ul>
-        <div className="mr-9 flex w-[10%] bg-gradient-to-r from-zinc-700 to-slate-900  items-center justify-center  p-3 rounded-2xl cursor-pointer">
+        <div className="sm:mr-9 mr-2 flex sm:w-[10%] bg-gradient-to-r from-zinc-700 to-slate-900  items-center justify-center  p-3 rounded-2xl cursor-pointer">
             
-          <p className="">Let’s Connect</p>
+          <p className="text-[0.9rem]">Let’s Connect</p>
           </div>
         
       </header>

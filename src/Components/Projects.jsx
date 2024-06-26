@@ -2,14 +2,20 @@ import React from "react";
 import {
     FaLink 
   } from "react-icons/fa";
+  import { GoNorthStar } from "react-icons/go";
+
 const Projects = () => {
   return (
-    <div className=" flex items-center  sm:m-3">
-      <div className="grid sm:grid-cols-4 grid-cols-1 m-2 gap-3  ">
-        <p className="font-[2rem] text-[1.6rem] sm:text-[2.2rem]  text-center p-1 sm:flex items-center justify-center bg-gradient-to-r from-zinc-800 to-zinc-900 text-white sm:rounded-[2rem]">Projects</p>
+    <div className="">
+      <div className="grid sm:grid-cols-4 grid-cols-1  gap-4 bg-black sm:p-7 p-3">
+        <p className="font-[2rem] gap-2 text-[1.6rem] sm:text-[2.2rem]  text-center p-1 flex items-center justify-center bg-gradient-to-r from-zinc-800 to-zinc-900 text-white sm:rounded-[2rem]">
+          <GoNorthStar className=""/>
+          Projects
+          <GoNorthStar/>
+          </p>
       <div className="col-span-1  bg-neutral-900  rounded-[2rem] h-[60vh]  max-w-sm flex flex-col  justify-center p-5">
           <div className=" h-[70%] bg-black rounded-[2rem] sm:m-1 flex justify-center">
-            <p className="text-white text-[2rem] text-center sm:p-0 p-1 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
+            <p className="text-white text-[2rem] text-center  p-2 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
           </div>
           <div className="flex items-center justify-between  m-3 ">
             
@@ -25,7 +31,7 @@ const Projects = () => {
         </div>
         <div className="col-span-1  bg-neutral-900  rounded-[2rem] h-[60vh]  max-w-sm flex flex-col  justify-center p-5">
           <div className=" h-[70%] bg-black rounded-[2rem] sm:m-1 flex justify-center">
-            <p className="text-white text-[2rem] text-center sm:p-0 p-1 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
+            <p className="text-white text-[2rem] text-center  p-2 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
           </div>
           <div className="flex items-center justify-between  m-3 ">
             
@@ -41,7 +47,7 @@ const Projects = () => {
         </div>
         <div className="col-span-1  bg-neutral-900  rounded-[2rem] h-[60vh]  max-w-sm flex flex-col  justify-center p-5">
           <div className=" h-[70%] bg-black rounded-[2rem] sm:m-1 flex justify-center">
-            <p className="text-white text-[2rem] text-center sm:p-0 p-1 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
+            <p className="text-white text-[2rem] text-center p-2 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
           </div>
           <div className="flex items-center justify-between  m-3 ">
             
@@ -57,7 +63,7 @@ const Projects = () => {
         </div>
         <div className="col-span-1  bg-neutral-900  rounded-[2rem] h-[60vh]  max-w-sm flex flex-col  justify-center p-5">
           <div className=" h-[70%] bg-black rounded-[2rem] sm:m-1 flex justify-center">
-            <p className="text-white text-[2rem] text-center sm:p-0 p-1 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
+            <p className="text-white text-[2rem] text-center  p-2 text-wrap flex items-center">Lorem ipsum dolor sit.</p>
           </div>
           <div className="flex items-center justify-between  m-3 ">
             
